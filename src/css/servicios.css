@@ -1,0 +1,31 @@
+.icono {
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.servicios h3 {
+    color: var(--secundario); 
+    font-weight: 400; 
+}
+.servicio p {
+    line-height: 2
+}
+
+.servicios {
+    display:flex;
+    flex-direction: row; /* Muestra las secciones en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+   
+}
+.servicio {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: 20px; /* Espacio entre las secciones */
+}
+

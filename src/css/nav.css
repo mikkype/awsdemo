@@ -1,0 +1,49 @@
+.navegacion-principal {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 1rem;
+    margin-top: 1rem;
+    max-width: 120rem;
+}
+
+@media (min-width) {
+    .navegacion-principal{
+        display: flex;
+        justify-content:space-between;
+    }
+    
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.nav.bg {
+    background-color: var(--secundario);
+    
+    
+
+}
+
+.navegacion-principal a {
+    background-color: var(--secundario);
+    
+
+}
+
+.navegacion-principal a {
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
